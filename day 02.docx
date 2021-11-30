@@ -1,0 +1,45 @@
+(1)	 List 5 difference between Browser JS(console) v Nodejs ?
+
+a)	Browser js(console):
+
+•	“window” is a predefined global object which has functions and attributes, that have to deal with window that has been drawn.
+•	“location” is another predefined object in browsers, that has all the information about the url we have loaded.
+•	“document”, which is also another predefined global variable in browsers, has the html which is rendered.
+•	Browsers may have an object named “global”, but it will be the exact one as “window”.
+•	Browsers don’t have “require” predefined. You may include it in your app for asynchronous file loading.
+•	Moduling is not mandatory in client side JavaScript, i.e. in browsers
+
+b)	Nodejs: 
+•	Node doesn’t have a predefined “window” object cause it doesn’t have a window to draw anything.
+•	“location” object is related to a particular url; that means it is for page specific. So, node doesn’t require that.
+•	Ofcourse Node doesn’t have “document” object also, cause it never have to render anything in a page.
+•	Node has “global”, which is a predefined global object. It contains several functions that are not available in browsers, cause they are needed for server side works only.
+•	“require” object is predefined in Node which is used to include modules in the app.
+
+
+(2)	 watch & summary 5 points – 
+
+ 	   <    div    >               </     div     >
+     Open tag		           close tag
+ 	<script> is a used to embed client side script.
+ 	<image> is a used to embed image in html page.
+ 	<link> ex.= <link href = “image.png” > link is used to folder path and link.
+ 	Most modern javascript framework to this internally.
+
+
+(3)	Execute the below code and write your description in txt file
+
+
+a.	typeof(1) = number.
+b.	typeof(1.1)= number.
+c.	typeof('1.1') =  is string.
+d.	typeof(true) = boolean.
+e.	typeof(null) = object.
+f.	typeof(undefined) = undefined
+g.	typeof([]) = object
+h.	typeof({}) = object
+i.	typeof(NaN)  = number.
+
+
+
+ 
